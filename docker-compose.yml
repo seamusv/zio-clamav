@@ -1,0 +1,6 @@
+version: '2'
+services:
+  av:
+    image: mk0x/docker-clamav:alpine
+    ports:
+      - "3310:3310"
